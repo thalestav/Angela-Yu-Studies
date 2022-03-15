@@ -1,20 +1,131 @@
 body{
     margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 1.25rem;
+    color: #40514E;
 }
 h1{
-    margin-top: 0;
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    font-size: 5.625rem;
+    line-height: 2;
 }
+h2{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+h3{
+    color: #11999e;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+p{
+    line-height: 2;
+}
+hr{
+    border: dotted #EAF6f6 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
 .top-container {
     background-color: #EEEDDE;
+    position: relative;
+    padding-top: 100px;
+    margin-bottom: 60px;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 34.75rem;
+    bottom: 28.75rem;
+}
+.big-duck{
+    margin-left: 50px;
+}
+.top-cloud{
+    right: 34.75rem;
+    top: 3.125rem;
+    position: absolute;
 }
 .middle-container{
-    background-color: red;
-    width: 200px;
-    height: 200px;
+    margin: 100px;
+}
+.intro{
+    width: 45%;
+    margin: auto;
+}
+.contac-message{
+    width: 40%;
+    margin: 40px auto 60px;
+}
+.profile-photo{
+    border-radius: 50%;
+    width: 15rem;
+    height: 15rem;
+}
+.arrow-photo {
+    position: absolute;
+    width: 8rem;
+    height: 8rem;
+}
+.me-explanation{
+    font-family: 'Cedarville Cursive', cursive; 
+    font-size: 1.9rem;
+    position: absolute;
+    right: 16rem;
+    top: 65rem;
+}
+.arrow-part-02{
+    font-size: 5rem;
+    position: absolute;
+    font-family: 'Cedarville Cursive', cursive; 
+    right: 33rem;
+    top: 60rem;
+}
+.logo-htmlcssjs{
+    width: 10rem;
+    margin: 1rem;
+    margin-top: 0;
+}
+.logo-bootstrap{
+    width: 5rem;
+    margin: 1rem;
+}
+.logo-reactjs{
+    width: 5rem;
+    margin: 1rem;
+}
+.com-photo{
+    width: 8rem;
+    margin-top: 1.5rem;
+    margin-right: 2rem;
+}
+.skill-div-02{
+    text-align:end;
+}
+.logo-htmlcssjs, .logo-bootstrap, .logo-reactjs, .com-photo{
+    float: left;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+.btn-group{
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+.footer-logo{
+    width: 2rem;
 }
 .bottom-container{
-    background-color: blue;
-    width: 200px;
-    height: 200px;
-
+    background-color: #EEEDDE;
+    padding: 50px 0 20px;
+}
+.copyright{
+    color: black;
+    font-size: 0.75rem;
 }
